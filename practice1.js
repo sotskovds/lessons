@@ -1,17 +1,16 @@
 // Ex. 1 - Поменять местами значения "cat" та "dog" 
-// let cat = 'cat';
-// let dog = 'dog';
+let cat = 'cat';
+let dog = 'dog';
 
-// Ваш код:
-// note: для решения этой задачи вам нужно огласить дополнительную переменную
-// то есть вариант
-//    cat = 'dog';
-//  dog = 'cat'; 
-// не подходит
+let switcher = cat;
+cat = dog;
+dog = switcher;
 
-// Результат должен быть следующим:
-// console.log(cat); //  'dog'
-// console.log(dog); // 'cat'
+console.log(cat);
+console.log(dog);
+
+
+
 
 // Ex.2 - Values and variables
 // 1. Огласите переменные 'company', 'position'  и запишите туда значения соответственно компании, в которой вы работаете.
